@@ -1,0 +1,3 @@
+# Missing Error Handling in Express.js API Route
+This repository demonstrates a common error in Express.js API routes: missing comprehensive error handling. The `bug.js` file shows an API endpoint that lacks proper handling for database errors and cases where a user is not found. This can lead to unexpected behavior, including revealing sensitive information to clients. 
+The `bugSolution.js` file provides a corrected version with improved error handling, ensuring a more robust and secure API.
